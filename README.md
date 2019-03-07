@@ -12,9 +12,7 @@ identity:=find_identity
 
 Parameter|Type|Description
 ------------|------------|----
-identity|COLLECTION|
-
-Returns a list of codesigning identities installed in the default keychain.  
+identity|COLLECTION|list of codesigning identities installed in the default keychain
 
 Internally calls  
 
@@ -31,9 +29,9 @@ status:=codesign (path;identity{;keys})
 
 Parameter|Type|Description
 ------------|------------|----
-path|TEXT|
-identity|TEXT|
-keys|OBJECT|addtional keys to add to ``Info.plist`` 
+path|TEXT|path to the app to codesign
+identity|TEXT|codesign identity
+keys|OBJECT|optional; keys to add to the app's ``Info.plist`` 
 
 In ``keys`` you can specify ``CFBundleIdentifier`` to customise the bundle identifier. By default, it is set to ``4d.com.{appName}.app``
 
