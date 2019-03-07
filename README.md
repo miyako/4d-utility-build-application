@@ -26,7 +26,6 @@ security find-identity -p codesigning -v
 
 ```
 status:=codesign (path;identity{;keys})
-
 ```
 
 
@@ -37,6 +36,15 @@ identity|TEXT|
 keys|OBJECT|addtional keys to add to ``Info.plist`` 
 
 In ``keys`` you can specify ``CFBundleIdentifier`` to customise the bundle identifier. By default, it is set to ``4d.com.{appName}.app``
+
+The following keys are automatically added
+
+* ``NSRequiresAquaSystemAppearance``:``YES``    
+* ``NSAppleEventsUsageDescription``:``""``      
+* ``NSCalendarsUsageDescription``:``""``    
+* ``NSContactsUsageDescription``:``""``    
+* ``NSCameraUsageDescription``:``""``    
+* ``NSMicrophoneUsageDescription``:``""``  
 
 <img width="1013" alt="2019-03-08 1 40 28" src="https://user-images.githubusercontent.com/1725068/53974568-2ec9bd00-4146-11e9-984e-1c8d0adf86b9.png">
 
