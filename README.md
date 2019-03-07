@@ -3,11 +3,11 @@ Tools to simplify BUILD APPLICATION
 
 ## Syntax
 
+![preemption xx](https://user-images.githubusercontent.com/1725068/41327179-4e839948-6efd-11e8-982b-a670d511e04f.png)
+
 ```
 identity:=find_identity 
 ```
-
-![preemption xx](https://user-images.githubusercontent.com/1725068/41327179-4e839948-6efd-11e8-982b-a670d511e04f.png)
 
 Parameter|Type|Description
 ------------|------------|----
@@ -21,11 +21,11 @@ security find-identity -p codesigning -v
 
 <img width="1013" alt="2019-03-08 1 52 30" src="https://user-images.githubusercontent.com/1725068/53974380-cc70bc80-4145-11e9-8282-fb5ea23dbd18.png">
 
+![preemption xx](https://user-images.githubusercontent.com/1725068/41327179-4e839948-6efd-11e8-982b-a670d511e04f.png)
+
 ```
 status:=codesign (path;identity{;keys})
 ```
-
-![preemption xx](https://user-images.githubusercontent.com/1725068/41327179-4e839948-6efd-11e8-982b-a670d511e04f.png)
 
 Parameter|Type|Description
 ------------|------------|----
