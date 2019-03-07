@@ -9,6 +9,7 @@ Tools to simplify BUILD APPLICATION
 identity:=find_identity 
 ```
 
+![preemption xx](https://user-images.githubusercontent.com/1725068/41327179-4e839948-6efd-11e8-982b-a670d511e04f.png)
 
 Parameter|Type|Description
 ------------|------------|----
@@ -26,6 +27,7 @@ security find-identity -p codesigning -v
 status:=codesign (path;identity{;keys})
 ```
 
+![preemption xx](https://user-images.githubusercontent.com/1725068/41327179-4e839948-6efd-11e8-982b-a670d511e04f.png)
 
 Parameter|Type|Description
 ------------|------------|----
