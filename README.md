@@ -46,4 +46,9 @@ The following keys are automatically added
 
 <img width="1013" alt="2019-03-08 1 40 28" src="https://user-images.githubusercontent.com/1725068/53974568-2ec9bd00-4146-11e9-984e-1c8d0adf86b9.png">
 
+---
+
+for more information about notarisation:
+
+https://developer.apple.com/documentation/security/notarizing_macos_software_before_distribution/customizing_the_notarization_workflow?preferredLanguage=occ
 
