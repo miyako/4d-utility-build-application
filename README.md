@@ -1,7 +1,7 @@
 # 4d-utility-build-application
 Tools to simplify BUILD APPLICATION
 
-**Note**: A [newer version for v19](https://github.com/miyako/4d-class-build-application) is available.
+**Note**: [newer version for v19](https://github.com/miyako/4d-class-build-application) is available.
 
 ## Syntax
 
