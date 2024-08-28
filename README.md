@@ -1,5 +1,7 @@
 ![version](https://img.shields.io/badge/version-18%2B-EB8E5F)
 ![platform](https://img.shields.io/static/v1?label=platform&message=mac-intel%20|%20mac-arm%20&color=blue)
+[![license](https://img.shields.io/github/license/miyako/4d-utility-build-application)](LICENSE)
+![deprecated](https://img.shields.io/badge/-deprecated-inactive)
 
 # 4d-utility-build-application
 Tools to simplify BUILD APPLICATION
